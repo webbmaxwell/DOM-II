@@ -40,3 +40,10 @@ mapPic.addEventListener('mouseenter', function(event) {
 mapPic.addEventListener('mouseleave', function(event) {
   event.target.src = 'img/adventure.jpg'
 });
+
+let sandBus = document.querySelector('#sand-bus');
+sandBus.addEventListener('keydown', event => {
+  if (event.keyCode === 'f') {
+    this.target.style.display = 'none';
+  };
+});
